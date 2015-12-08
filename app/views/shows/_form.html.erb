@@ -13,19 +13,39 @@
 
   <div class="field">
     <%= f.label :title %><br>
-    <%= f.text_field :title %>
+    <%= f.text_field :title, :size => 75 %>
   </div>
   <div class="field">
     <%= f.label :description %><br>
-    <%= f.text_field :description %>
+    <%= f.text_area :description, :cols => 75, :rows => 10 %>
   </div>
   <div class="field">
-    <%= f.label :guest %><br>
-    <%= f.text_field :guest %>
+    <%= f.label :guest_name %><br>
+    <%= f.text_field :guest_name, :size => 75 %>
   </div>
   <div class="field">
-    <%= f.label :source %><br>
-    <%= f.text_field :source %>
+    <%= f.label :youtubeID %><br>
+    <%= f.text_field :youtubeID, :size => 75 %>
+  </div>
+  <div class="field">
+    <%= f.label :gender %><br>
+    <%= select_tag :gender, options_for_select(t("gender_options").invert), :class => "custom-select" %>
+  </div>
+  <div class="field">
+    <%= f.label :age %><br>
+    <%= f.text_field :age, :size => 3 %>
+  </div>
+  <div class="field">
+    <%= f.label :zip %><br>
+    <%= f.text_field :zip, :size => 10 %>
+  </div>
+  <div class="field">
+    <%= f.label :religious_heritage %><br>
+    <%= select_tag :religious_heritage, options_for_select(t("religion_options").invert), :class => "custom-select" %>
+  </div>
+  <div class="field">
+    <%= f.label :current_religion %><br>
+    <%= select_tag :current_religion, options_for_select(t("religion_options").invert), :class => "custom-select" %>
   </div>
   <div class="actions">
     <%= f.submit %>

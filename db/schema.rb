@@ -19,10 +19,15 @@ ActiveRecord::Schema.define(version: 20151112062533) do
   create_table "shows", force: :cascade do |t|
     t.string   "title"
     t.string   "description"
-    t.string   "guest"
-    t.string   "source"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
+    t.string   "guest_name"
+    t.string   "youtubeID"
+    t.string   "gender"
+    t.integer  "age"
+    t.string   "zip"
+    t.string   "current_religion"
+    t.string   "religious_heritage"
+    t.datetime "created_at",         null: false
+    t.datetime "updated_at",         null: false
   end
 
 end

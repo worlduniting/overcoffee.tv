@@ -20,4 +20,22 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  gender_options:
+    one: "Female"
+    two: "Male"
+    three: "Genderqueer/Androgynous"
+    four: "Intersex"
+    five: "Transgender"
+    six: "Transsexual"
+    seven: "Cross-dresser"
+    eight: "FTM (female-to-male)"
+    nine: "MTF (male-to-female)"
+  religion_options:
+    one: "Christian"
+    two: "Islam"
+    three: "Judaism"
+    four: "Buddhism"
+    five: "Hinduism"
+    six: "Pagan"
+    seven: "Spiritual"
+    eight: "Spaghetti Monster"

@@ -13,3 +13,14 @@
  *= require_tree .
  *= require_self
  */
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  background-image: url(http://overcoffee.tv/images/angelinas_back_vid.jpg);
+  background-color: #cccccc;
+  padding-top: 70px
+}
+
+Voris Mitchell Brumfield
+
+KelseyvilleUMC@gmail.com

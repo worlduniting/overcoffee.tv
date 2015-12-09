@@ -6,6 +6,10 @@ Rails.application.routes.draw do
   get 'about/index'
   get 'about', to: 'about#index'
 
+  resources :donate
+  get 'donate/index'
+  get 'donate', to: 'donate#index'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

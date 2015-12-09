@@ -33,7 +33,7 @@
 
         <ul class="nav navbar-nav navbar-right">
           <li><%= link_to("About the Show", :controller => "about") %></li>
-          <li><a href="http://overcoffee.tv/donate/donate.html">Donate</a></li>
+          <li><%= link_to("Donate", :controller => "donate") %></li>
           <!-- <li><a href="#">Link</a></li> -->
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Connect with Rev. Dave <span class="caret"></span></a>
@@ -65,8 +65,6 @@
 
     <!-- Include jQuery (required) and the JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-
-    <script src="dist/toolkit.min.js"></script>
 
     <!-- Begin Video.js -->
         <video id="bgvid" muted="true" poster="https://s3-us-west-1.amazonaws.com/worlduniting/dave/video/angelinas_back_vid.jpg" preload="none" autoplay loop data-setup='[]'>

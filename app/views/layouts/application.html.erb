@@ -45,7 +45,7 @@
         </ul>
         <ul class="nav navbar-nav navbar-right m-r-0">
           <li>
-            <%= link_to("Donate/Get Involved", :controller => "donate") %>
+            <%= link_to("Donate", :controller => "donate") %>
           </li>
         </ul>
 
@@ -63,12 +63,14 @@
   </footer>
 
 
-    <!-- Begin Video.js -->
-        <video id="bgvid" muted="true" poster="https://s3-us-west-1.amazonaws.com/worlduniting/dave/video/angelinas_back_vid.jpg" preload="none" autoplay loop data-setup='[]'>
-          <source src="https://s3-us-west-1.amazonaws.com/worlduniting/dave/video/angelinas_back_vid.mp4" type='video/mp4' />
-          
-          <source src="https://s3-us-west-1.amazonaws.com/worlduniting/dave/video/angelinas_back_vid.webm" type="video/webm" />
-        </video>
+    <!-- Background Video -->
+    <video id="bgvid" muted="true" 
+            poster="https://s3-us-west-1.amazonaws.com/worlduniting/dave/video/angelinas_back_vid.jpg" preload="none" autoplay loop data-setup='[]'>
+      <source src="https://s3-us-west-1.amazonaws.com/worlduniting/dave/video/angelinas_back_vid.mp4" 
+              type='video/mp4' />
+      <source src="https://s3-us-west-1.amazonaws.com/worlduniting/dave/video/angelinas_back_vid.webm" 
+              type="video/webm" />
+    </video>
 
     <!-- Include JS -->
     <script src="/js/jquery.min.js"></script>

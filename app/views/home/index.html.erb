@@ -1,143 +1,209 @@
-  <!--  ///////////////////     Interview Panels     //////////////////-->
-  <div class="m-t">
-    <div class="row">
-      <div class="col-md-4 col-md-offset-4">
 
-        <!-- Panels -->
 
-        <div class="panel panel-default panel-profile">
-          <p>&nbsp;</p>
-          <center><iframe width="290" height="150" src="https://www.youtube.com/embed/3SFroFgx0z4" frameborder="0" allowfullscreen></iframe></center>
-          <div class="panel-body text-center">
-            <h5 class="panel-title">Over Coffee with Pastor Voris Mitchell Brumfield, an Methodist Pastor in Middletown, CA. Episode 14.</h5>
-            <p class="m-b-md">Voris shares her early childhood and calling to ministry and her family's move to and work in Lake County, CA.</p>
-          </div>
+
+<div class="container p-t-md">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="panel panel-default panel-profile m-b-md">
+        <div class="panel-heading" style="background-color: #aaaaaa;"></div>
+        <div class="panel-body text-center">
+          <%= link_to image_tag("oc_logo_200px.png", 
+                                :alt => "Over Coffee with Rev. Dave Thompson",
+                                :class => "panel-profile-img"),
+              root_path %>
+
+          <h5 class="panel-title">
+            <%= link_to("Over Coffee", :controller => "about", :class => "text-inherit") %>
+          </h5>
+
+          <p class="m-b-md">A (roughly) 30-minute weekly Sunday morning web series where <a href="http://about.me/revdavethompson" target="_blank">Rev. Dave Thompson</a> listens to the <strong>spiritual stories of everyday people</strong>.</p>
+
+          <%= link_to button_tag("About the Show", :type => "button", :class => "btn btn-primary-outline btn-sm"), :controller => "about" %>
         </div>
+      </div>
 
-        <div class="panel panel-default panel-profile">
-          <p>&nbsp;</p>
-          <center><iframe width="290" height="150" src="https://www.youtube.com/embed/d478v-wsjMM" frameborder="0" allowfullscreen></iframe></center>
-          <div class="panel-body text-center">
-            <h5 class="panel-title">Over Coffee with Darren Garvin, an atheist, shares his spiritual story. Episode 13.</h5>
-            <p class="m-b-md">Darren shares his journey from being an evangelical Christian to his eventual destination as an atheist.</p>
+
+    </div>
+
+    <div class="col-md-6">
+      <ul class="list-group media-list media-list-stream">
+
+        <li class="media list-group-item p-a" style="background-color: #eeeeee">
+        <h4>This Sunday's Spiritual Story...</h4>
+        </li>
+
+        <li class="media list-group-item p-a">
+          <a class="media-left" href="#">
+            <span class="icon icon-youtube"></span>
+          </a>
+          <div class="media-body">
+            <div class="media-heading">
+              <small class="pull-right text-muted">11-Nov-16</small>
+              <h5>Pastor Voris Brumfield</h5>
+              <h6>A Methodist Minister</h6>
+            </div>
+
+            <p><iframe width="346" height="195" src="https://www.youtube.com/embed/3SFroFgx0z4" frameborder="0" allowfullscreen></iframe></p>
+            <p>
+              <button type="button" class="btn btn-xs btn-pill btn-default">Christian</button>
+              <button type="button" class="btn btn-xs btn-pill btn-default">Methodist</button>
+            </p>
+            <p>
+              Voris shares her early childhood and calling to ministry and her family's move to and work in Lake County, CA.
+            </p>
+
           </div>
-        </div>
+        </li>
+      </ul>
 
-        <div class="panel panel-default panel-profile">
-          <p>&nbsp;</p>
-          <center><iframe width="290" height="150" src="https://www.youtube.com/embed/dR_y1PA4W4c" frameborder="0" allowfullscreen></iframe></center>
-          <div class="panel-body text-center">
-            <h5 class="panel-title">Over Coffee with Robert Satiacum, a native american, shares his spiritual story. Episode 12.</h5>
-            <p class="m-b-md">Robert Satiacum shares about his early Christian experience and his movement into his native american spiritual experiences.</p>
+      <ul class="list-group media-list media-list-stream">
+
+        <li class="media list-group-item p-a" style="background-color: #eeeeee">
+        <h4>Previous Stories...</h4>
+        </li>
+
+        <li class="media list-group-item p-a">
+          <a class="media-left" href="#">
+            <span class="icon icon-youtube"></span>
+          </a>
+          <div class="media-body">
+            <div class="media-heading">
+              <small class="pull-right text-muted">06-Nov-16</small>
+              <h5>Darren Garvin</h5>
+              <h6>A Care Giver</h6>
+            </div>
+
+            <p><iframe width="346" height="195" src="https://www.youtube.com/embed/d478v-wsjMM" frameborder="0" allowfullscreen></iframe></p>
+            <p>
+              <button type="button" class="btn btn-xs btn-pill btn-default">Atheist</button>
+              <button type="button" class="btn btn-xs btn-pill btn-default">Christian</button>
+            </p>
+            <p>
+              Darren shares his journey from being an evangelical Christian to his eventual destination as an atheist.
+            </p>
+
           </div>
-        </div>
+        </li>
 
-        <div class="panel panel-default panel-profile">
-          <p>&nbsp;</p>
-          <center><iframe width="290" height="150" src="https://www.youtube.com/embed/fl0PBJrM0MI" frameborder="0" allowfullscreen></iframe></center>
-          <div class="panel-body text-center">
-            <h5 class="panel-title">Over Coffee with Jackie Farley, a buddhist teacher, shares her spiritual story. Episode 11.</h5>
-            <p class="m-b-md">Jackie Farley tells us about her journey from The Church of England, to her life of teaching at the City of Ten Thousand Buddhas.</p>
+        <li class="media list-group-item p-a">
+          <a class="media-left" href="#">
+            <span class="icon icon-youtube"></span>
+          </a>
+          <div class="media-body">
+            <div class="media-heading">
+              <small class="pull-right text-muted">11-Nov-16</small>
+              <h5>Pastor Voris Brumfield</h5>
+              <h6>A Methodist Minister</h6>
+            </div>
+
+            <p><iframe width="346" height="195" src="https://www.youtube.com/embed/3SFroFgx0z4" frameborder="0" allowfullscreen></iframe></p>
+            <p>
+              <button type="button" class="btn btn-xs btn-pill btn-default">Christian</button>
+              <button type="button" class="btn btn-xs btn-pill btn-default">Methodist</button>
+            </p>
+            <p>
+              Voris shares her early childhood and calling to ministry and her family's move to and work in Lake County, CA.
+            </p>
+
           </div>
-        </div>
+        </li>
 
-        <div class="panel panel-default panel-profile">
-          <p>&nbsp;</p>
-          <center><iframe width="290" height="150" src="https://www.youtube.com/embed/NMhPKyHe4CI" frameborder="0" allowfullscreen></iframe></center>
-          <div class="panel-body text-center">
-            <h5 class="panel-title">Over Coffee with Eric Valenzuela, a business owner, shares his spiritual story. Episode 10.</h5>
-            <p class="m-b-md">Local coffee shop and tire store business owner, Eric Valenzuela, shares about the challenges of his childhood, becoming a Jehovah's Witness, divorce and remarriage, and finding his spiritual path. Filmed on location at Konocti Coffee in Soda Bay, CA.</p>
+        <li class="media list-group-item p-a">
+          <a class="media-left" href="#">
+            <span class="icon icon-youtube"></span>
+          </a>
+          <div class="media-body">
+            <div class="media-heading">
+              <small class="pull-right text-muted">11-Nov-16</small>
+              <h5>Pastor Voris Brumfield</h5>
+              <h6>A Methodist Minister</h6>
+            </div>
+
+            <p><iframe width="346" height="195" src="https://www.youtube.com/embed/3SFroFgx0z4" frameborder="0" allowfullscreen></iframe></p>
+            <p>
+              <button type="button" class="btn btn-xs btn-pill btn-default">Christian</button>
+              <button type="button" class="btn btn-xs btn-pill btn-default">Methodist</button>
+            </p>
+            <p>
+              Voris shares her early childhood and calling to ministry and her family's move to and work in Lake County, CA.
+            </p>
+
           </div>
-        </div>
+        </li>
 
-        <div class="panel panel-default panel-profile">
-          <p>&nbsp;</p>
-          <center><iframe width="290" height="150" src="https://www.youtube.com/embed/w7rTfGdsNqc" frameborder="0" allowfullscreen></iframe></center>
-          <div class="panel-body text-center">
-            <h5 class="panel-title">Francesca Gentile, a wiccan priestess, from San Francisco: Episode 9.</h5>
-            <p class="m-b-md">Francesca shares about growing up catholic and her journey, exploring spirituality.</p>
+        <li class="media list-group-item p-a">
+          <a class="media-left" href="#">
+            <span class="icon icon-youtube"></span>
+          </a>
+          <div class="media-body">
+            <div class="media-heading">
+              <small class="pull-right text-muted">11-Nov-16</small>
+              <h5>Pastor Voris Brumfield</h5>
+              <h6>A Methodist Minister</h6>
+            </div>
+
+            <p><iframe width="346" height="195" src="https://www.youtube.com/embed/3SFroFgx0z4" frameborder="0" allowfullscreen></iframe></p>
+            <p>
+              Voris shares her early childhood and calling to ministry and her family's move to and work in Lake County, CA.
+            </p>
+
           </div>
+        </li>
+
+      </ul>
+    </div>
+
+    <div class="col-md-3">
+
+      <div class="panel panel-default panel-profile m-b-md">
+        <div class="panel-heading" style="background-color: #eeeeee;"></div>
+        <div class="panel-body text-center">
+          <a href="http://about.me/revdavethompson" target="_blank">
+            <img
+              class="panel-profile-img"
+              src="/img/dave_circle_headpic.jpg">
+          </a>
+
+          <h5 class="panel-title">
+            <a class="text-inherit" href="profile/index.html">Rev. Dave Thompson</a>
+          </h5>
+
+          <ul class="list-unstyled list-spaced text-left">
+              <li><span class="text-muted icon icon-calendar m-r"></span> Make an <a href="https://www.calendly.com/revdave" target="_blank" title="Rev Dave's Calendar">Appointment</a></li>
+              <li><span class="text-muted icon icon-facebook m-r"></span> Connect on <a href="https://www.facebook.com/davethompsonpage" target="_blank" title="Rev Dave's Facebook">Facebook</a></li>
+              <li><span class="text-muted icon icon-twitter m-r"></span> Or on <a href="http://twitter.com/revdavethompson" target="_blank" title="Rev Dave's Twitter">Twitter</a></li>
+              <li><span class="text-muted icon icon-github m-r"></span> Software on <a href="https://github.com/worlduniting/" target="_blank" title="Rev Dave's Github">Github</a></li>
+              <li><span class="text-muted icon icon-google-play m-r"></span> Songs on <a href="https://play.google.com/store/music/album/D_a_Thompson_Disclaimer?id=Bkjlgjpday6f4k5cu6sehs6pkye" target="_blank" title="Rev Dave's Music">iTunes</a></li>
+              <li><span class="text-muted icon icon-book m-r"></span> Books on <a href="http://www.amazon.com/Over-Coffee-Conversation-Partnership-Conservative/dp/0983567735/ref=sr_1_1?ie=UTF8&qid=1441824909&sr=8-1&keywords=over+coffee" target="_blank" title="Rev Dave's Books on Amazon">Amazon</a></li>
+          </ul>
+
+          <%= link_to button_tag("About.me", :type => "button", :class => "btn btn-primary-outline btn-sm"), "http://about.me/revdavethompson", :target => "_blank" %>
         </div>
-
-        <div class="panel panel-default panel-profile">
-          <p>&nbsp;</p>
-          <center><iframe width="290" height="150" src="https://www.youtube.com/embed/fRa_w_EsYPg" frameborder="0" allowfullscreen></iframe></center>
-          <div class="panel-body text-center">
-            <h5 class="panel-title">Rob Robertson, a fireman from Seattle, WA: Episode 8</h5>
-            <p class="m-b-md">Rob shares about the loss of his son and the challenges of being a first responder.</p>
-          </div>
-        </div>
-
-        <div class="panel panel-default panel-profile">
-          <p>&nbsp;</p>
-          <center><iframe width="290" height="150" src="https://www.youtube.com/embed/WObH610F1gI" frameborder="0" allowfullscreen></iframe></center>
-          <div class="panel-body text-center">
-            <h5 class="panel-title">Ray Boltz, Celebrity Christian Performing Artist, Episode 7</h5>
-            <p class="m-b-md">Ray shares about his early faith decisions, his rise to fame, and coming out as gay.</p>
-          </div>
-        </div>
-
-        <div class="panel panel-default panel-profile">
-          <p>&nbsp;</p>
-          <center><iframe width="290" height="150" src="https://www.youtube.com/embed/6hytmiyYEwM" frameborder="0" allowfullscreen></iframe></center>
-          <div class="panel-body text-center">
-            <h5 class="panel-title">A Southern Story, Andrea Brown, Episode 6</h5>
-            <p class="m-b-md">Andrea Brown shares about growing up not knowing her father, being black in the south, and her faith journey.</p>
-          </div>
-        </div>
-
-
-        <div class="panel panel-default panel-profile">
-          <p>&nbsp;</p>
-          <center><iframe width="290" height="150" src="https://www.youtube.com/embed/EniFZV5LMm0" frameborder="0" allowfullscreen></iframe></center>
-          <div class="panel-body text-center">
-            <h5 class="panel-title">Valley Fire Victim Karl Parker (Ep5)</h5>
-            <p class="m-b-md">Karl Parker shares his spiritual story in the wake of losing their home in the Valley Fire.</p>
-          </div>
-        </div>
-
-
-        <div class="panel panel-default panel-profile">
-          <p>&nbsp;</p>
-          <center><iframe width="290" height="150" src="https://www.youtube.com/embed/Y1dakVXlqkk" frameborder="0" allowfullscreen></iframe></center>
-          <div class="panel-body text-center">
-            <h5 class="panel-title">Valley Fire Chaplain Nick Arnett (Ep4)</h5>
-            <p class="m-b-md">Chaplain Nick Arnett shares his spiritual story.</p>
-          </div>
-        </div>
-
-
-
-        <div class="panel panel-default panel-profile">
-          <p>&nbsp;</p>
-          <center><iframe width="290" height="150" src="https://www.youtube.com/embed/dcvywYXIO2I" frameborder="0" allowfullscreen></iframe></center>
-          <div class="panel-body text-center">
-            <h5 class="panel-title">Anja Koot (Ep3)</h5>
-            <p class="m-b-md">Anja Koot, formally a nun, shares her spiritual story.</p>
-          </div>
-        </div>
-
-        <div class="panel panel-default panel-profile">
-          <p>&nbsp;</p>
-          <center><iframe width="290" height="150" src="https://www.youtube.com/embed/nTZDyyAuHb4" frameborder="0" allowfullscreen></iframe></center>
-          <div class="panel-body text-center">
-            <h5 class="panel-title">Rabbi Mordecai Miller (Ep2)</h5>
-            <p class="m-b-md">Rabbi Mordecai Miller shares his spiritual story.</p>
-          </div>
-        </div>
-
-        <div class="panel panel-default panel-profile">
-          <p>&nbsp;</p>
-          <center><iframe width="290" height="150" src="https://www.youtube.com/embed/eUXOwBny4dI" frameborder="0" allowfullscreen></iframe></center>
-          <div class="panel-body text-center">
-            <h5 class="panel-title">Rebecca Vitsmun (Ep1)</h5>
-            <p class="m-b-md">The spiritual story of an atheist nationally outed on CNN.</p>
-          </div>
-        </div>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
 
       </div>
+
+      <div class="panel panel-default panel-link-list">
+        <div class="panel-body">
+          © 2015 World Uniting, Intl'
+
+          <a href="http://worlduniting.org" target="_blank">About</a>
+          <a href="#">Help</a>
+          <a href="#">Terms</a>
+          <a href="#">Privacy</a>
+          <a href="#">Cookies</a>
+          <a href="#">Ads</a>
+
+          <a href="#">info</a>
+          <a href="#">Brand</a>
+          <a href="#">Blog</a>
+          <a href="#">Status</a>
+          <a href="#">Apps</a>
+          <a href="#">Jobs</a>
+          <a href="#">Advertise</a>
+        </div>
+      </div>
+
     </div>
   </div>
+</div>
+

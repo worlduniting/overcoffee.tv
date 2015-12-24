@@ -6565,8 +6565,8 @@ fieldset[disabled] .btn-danger-outline.active {
 }
 @font-face {
   font-family: "toolkit-entypo";
-  src: url('/assets/toolkit-entypo.eot');
-  src: url('/assets/toolkit-entypo.eot?#iefix') format('eot'), url('/assets/toolkit-entypo.woff2') format('woff2'), url('/assets/toolkit-entypo.woff') format('woff'), url('/assets/toolkit-entypo.ttf') format('truetype');
+  src: url('/public/toolkit-entypo.eot');
+  src: url('/public/toolkit-entypo.eot?#iefix') format('eot'), url('/public/toolkit-entypo.woff2') format('woff2'), url('/public/toolkit-entypo.woff') format('woff'), url('/public/toolkit-entypo.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }

@@ -1,0 +1,7 @@
+waiting for server to shut down.... done
+server stopped
+psql: could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+waiting for server to start.... done
+server started

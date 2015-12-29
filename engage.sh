@@ -6,9 +6,9 @@ if ps ax | grep -v grep | grep Postgres > /dev/null
 		echo "Postgres is already running."
 	else
 		echo "Starting Postgres service..."
-		echo "Giving Postgres 8 seconds to warm up..."
+		echo "Giving Postgres 5 seconds to warm up..."
 		open -a Postgres
-		sleep 8
+		sleep 5
 fi
 
 # Check if Rails server is running and start if not
@@ -31,3 +31,5 @@ open -a Safari 'http://localhost:3000'
 
 # Open Sublime Text to working directory
 subl .
+
+echo "You are up and running. Your wish is my command."

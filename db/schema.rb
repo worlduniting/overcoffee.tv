@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151112062533) do
+ActiveRecord::Schema.define(version: 20151229005510) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -28,6 +28,7 @@ ActiveRecord::Schema.define(version: 20151112062533) do
     t.string   "religious_heritage"
     t.datetime "created_at",         null: false
     t.datetime "updated_at",         null: false
+    t.datetime "published_date"
   end
 
 end

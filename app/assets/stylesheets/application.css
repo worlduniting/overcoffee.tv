@@ -13,3 +13,13 @@
  *= require_tree .
  *= require_self
  */
+
+.panel-profile-img {
+  margin-top: -70px;
+}
+.panel {
+  margin-top: 30px;
+}
+.list-group {
+  margin-top: 30px;
+}

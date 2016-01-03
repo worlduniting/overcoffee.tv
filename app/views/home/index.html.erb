@@ -5,7 +5,6 @@
   <div class="row">
     <div class="col-md-3">
       <div class="panel panel-default panel-profile m-b-md">
-        <div class="panel-heading" style="background-color: #aaaaaa;"></div>
         <div class="panel-body text-center">
           <%= link_to image_tag("oc_logo_200px.png", 
                                 :alt => "Over Coffee with Rev. Dave Thompson",
@@ -28,11 +27,12 @@
     <div class="col-md-6">
       <ul class="list-group media-list media-list-stream">
 
-        <li class="media list-group-item p-a" style="background-color: #eeeeee">
-        <h4>This Sunday's Spiritual Story...</h4>
-        </li>
 
         <li class="media list-group-item p-a">
+        <%= link_to image_tag("this_sunday.png", 
+                              :alt => "This Sunday 8am",
+                              :class => "panel-profile-img pull-right"),
+            "http://about.me/revdavethompson" %>
           <a class="media-left" href="#">
             <span class="icon icon-youtube"></span>
           </a>
@@ -149,7 +149,6 @@
     <div class="col-md-3">
 
       <div class="panel panel-default panel-profile m-b-md">
-        <div class="panel-heading" style="background-color: #eeeeee;"></div>
         <div class="panel-body text-center">
           <%= link_to image_tag("dave_circle_headpic.jpg", 
                                 :alt => "Over Coffee with Rev. Dave Thompson",

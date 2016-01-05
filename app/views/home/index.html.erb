@@ -48,7 +48,7 @@
             <p>
               
               <strong>Spiritual Tags</strong>
-              <button type="button" class="btn btn-xs btn-pill btn-primary">Spiritual</button>
+              <%= link_to button_tag("Spiritual", :type => "button", :class => "btn btn-primary-outline btn-sm"), :controller => "home" %>
             </p>
             <p>
               Siri tells about growing up in a non-religious household and how she handled the difficult challenges of life.
@@ -80,8 +80,8 @@
             <p><iframe width="346" height="195" src="https://www.youtube.com/embed/f2_RsDWmOvw" frameborder="0" allowfullscreen></iframe></p>
             <p>
               <strong>Spiritual Tags</strong>
-              <button type="button" class="btn btn-xs btn-pill btn-primary">Muslim</button>
-              <button type="button" class="btn btn-xs btn-pill btn-primary">Christian</button>
+              <%= link_to button_tag("Muslim", :type => "button", :class => "btn btn-primary-outline btn-sm"), :controller => "home" %>
+              <%= link_to button_tag("Christian", :type => "button", :class => "btn btn-primary-outline btn-sm"), :controller => "home" %>
             </p>
             <p>
               Aqeela shares about her early Christian roots and her eventual journey into the Muslim faith.
@@ -142,7 +142,7 @@
       <%= link_to image_tag("world-uniting.png", 
                             :alt => "World Uniting, Intl'",
                             :class => "panel-profile-img center-block"),
-          "http://about.me/revdavethompson" %>
+          "http://worlduniting.org", :target => "_blank" %>
         <div class="panel-body">
           
           © 2015 <a href="http://worlduniting.org" target="_blank">World Uniting, Intl'</a>

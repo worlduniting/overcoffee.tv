@@ -20,6 +20,7 @@
           <%= link_to button_tag("About the Show", :type => "button", :class => "btn btn-primary-outline btn-sm"), :controller => "about" %>
         </div>
       </div>
+      <p>&nbsp;</p>
 
 
     </div>
@@ -31,8 +32,8 @@
         <li class="media list-group-item p-a">
         <%= link_to image_tag("this_sunday.png", 
                               :alt => "This Sunday 8am",
-                              :class => "panel-profile-img pull-right"),
-            "http://about.me/revdavethompson" %>
+                              :class => "panel-profile-img center-block"),
+            "http://overcoffee.tv" %>
           <a class="media-left" href="#">
             <span class="icon icon-youtube"></span>
           </a>
@@ -51,9 +52,6 @@
               Siri tells about growing up in a non-religious household and how she handled the difficult challenges of life.
             </p>
 
-            <p><strong>For more episodes, visit our</strong></p>
-            <p><a href="http://www.youtube.com/c/OvercoffeeTv" target="_blank"><span class="icon icon-youtube"></span> YouTube Channel (OverCoffeeTv)</a></p>
-
           </div>
         </li>
       </ul>
@@ -61,11 +59,12 @@
       
       <ul class="list-group media-list media-list-stream">
 
-        <li class="media list-group-item p-a" style="background-color: #eeeeee">
-        <h4>Last Sunday's Story...</h4>
-        </li>
 
         <li class="media list-group-item p-a">
+        <%= link_to image_tag("last-sunday-magnet.png", 
+                              :alt => "Last Sunday Episode",
+                              :class => "panel-profile-img center-block"),
+            "http://about.me/revdavethompson" %>
           <a class="media-left" href="#">
             <span class="icon icon-youtube"></span>
           </a>
@@ -84,61 +83,23 @@
             <p>
               Aqeela shares about her early Christian roots and her eventual journey into the Muslim faith.
             </p>
-            <p><strong>For more episodes, visit our</strong></p>
-            <p><a href="http://www.youtube.com/c/OvercoffeeTv" target="_blank"><span class="icon icon-youtube"></span> YouTube Channel (OverCoffeeTv)</a></p>
-
           </div>
         </li>
       </ul>
       <ul class="list-group media-list media-list-stream">
 
-        <li class="media list-group-item p-a" style="background-color: #eeeeee">
-        <h4>Previous Stories...</h4>
-        </li>
-
         <li class="media list-group-item p-a">
-          <a class="media-left" href="#">
-            <span class="icon icon-youtube"></span>
-          </a>
+          <%= link_to image_tag("previous-episodes-magnet.png", 
+                                :alt => "Previous Episodes",
+                                :class => "panel-profile-img center-block"),
+              "http://www.youtube.com/c/OvercoffeeTv", :target => "_blank" %>
           <div class="media-body">
-            <div class="media-heading">
-              <small class="pull-right text-muted">Sunday Nov 6, 2015</small>
-              <h5>Darren Garvin</h5>
-              <h6>A Care Giver</h6>
+            <div class="media-heading text-center">
+
+              <p><strong>For more episodes, visit our</strong></p>
+              <p><a href="http://www.youtube.com/c/OvercoffeeTv" target="_blank"><span class="icon icon-youtube"></span> YouTube Channel (OverCoffeeTv)</a></p>
+
             </div>
-
-            <p><iframe width="346" height="195" src="https://www.youtube.com/embed/d478v-wsjMM" frameborder="0" allowfullscreen></iframe></p>
-            <p>
-              <button type="button" class="btn btn-xs btn-pill btn-default">Atheist</button>
-              <button type="button" class="btn btn-xs btn-pill btn-default">Christian</button>
-            </p>
-            <p>
-              Darren shares his journey from being an evangelical Christian to his eventual destination as an atheist.
-            </p>
-
-          </div>
-        </li>
-
-        <li class="media list-group-item p-a">
-          <a class="media-left" href="#">
-            <span class="icon icon-youtube"></span>
-          </a>
-          <div class="media-body">
-            <div class="media-heading">
-              <small class="pull-right text-muted">Sunday Nov 11, 2016</small>
-              <h5>Pastor Voris Brumfield</h5>
-              <h6>A Methodist Minister</h6>
-            </div>
-
-            <p><iframe width="346" height="195" src="https://www.youtube.com/embed/3SFroFgx0z4" frameborder="0" allowfullscreen></iframe></p>
-            <p>
-              <button type="button" class="btn btn-xs btn-pill btn-default">Christian</button>
-              <button type="button" class="btn btn-xs btn-pill btn-default">Methodist</button>
-            </p>
-            <p>
-              Voris shares her early childhood and calling to ministry and her family's move to and work in Lake County, CA.
-            </p>
-
           </div>
         </li>
 
@@ -172,9 +133,15 @@
         </div>
 
       </div>
+      <p>&nbsp;</p>
 
       <div class="panel panel-default panel-link-list">
+      <%= link_to image_tag("world-uniting.png", 
+                            :alt => "World Uniting, Intl'",
+                            :class => "panel-profile-img center-block"),
+          "http://about.me/revdavethompson" %>
         <div class="panel-body">
+          
           © 2015 <a href="http://worlduniting.org" target="_blank">World Uniting, Intl'</a>
 
           <p>World Uniting’s mission is to promote peace by providing programs that facilitate empathy in order to learn how to love others whose world views may fundamentally conflict with our own.</p>

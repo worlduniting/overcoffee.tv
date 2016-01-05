@@ -13,13 +13,44 @@
  *= require_tree .
  *= require_self
  */
+ ul.nav li a, ul.nav li a:visited {
+     color: #3a6652 !important;
+ }
 
+ ul.nav li a:hover, ul.nav li a:active {
+     color: #ccc !important;
+ }
+
+ ul.nav li.active a {
+     color: #3a6652 !important;
+ }
+
+body {
+	background-color: #ccc;
+}
+
+.navbar {
+	opacity: 0.8;
+}
 .panel-profile-img {
   margin-top: -70px;
 }
-.panel {
-  margin-top: 30px;
-}
 .list-group {
   margin-top: 30px;
+  margin-bottom: 60px;
+  box-shadow: 1px 1px 1px #aaa;
+	opacity: 0.9;
+}
+
+/* Addendum to
+.panel {
+  margin-bottom: 22px;
+  margin-top: 20px;
+  background-color: #ffffff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+} */
+.panel {
+  box-shadow: 1px 1px 1px #aaa;
+	opacity: 0.9;
 }

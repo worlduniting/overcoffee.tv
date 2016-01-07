@@ -26,6 +26,9 @@ fi
 # Give Rails a few seconds to warm up
 sleep 5
 
+# Open a Finder browser to the Project root
+open .
+
 # Open Safari browser to localhost on port 3000
 open -a Safari 'http://localhost:3000'
 

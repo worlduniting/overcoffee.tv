@@ -6572,13 +6572,6 @@ fieldset[disabled] .btn-danger-outline.active {
 .dropdown-menu > li > a {
   padding: 5px 20px;
 }
-@font-face {
-  font-family: "toolkit-entypo";
-  src: url('/assets/toolkit-entypo.eot');
-  src: url('/assets/toolkit-entypo.eot?#iefix') format('eot'), url('/assets/toolkit-entypo.woff2') format('woff2'), url('/assets/toolkit-entypo.woff') format('woff'), url('/assetstoolkit-entypo.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
 
 .icon:before {
   position: relative;

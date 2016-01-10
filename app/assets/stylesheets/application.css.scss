@@ -35,6 +35,10 @@ body {
 
 .navbar {
 	opacity: 0.8;
+  -webkit-box-shadow: 0px 5px 30px -1px rgba(0,0,0,0.45);
+  -moz-box-shadow: 0px 5px 30px -1px rgba(0,0,0,0.45);
+  box-shadow: 0px 5px 30px -1px rgba(0,0,0,0.45);
+  border: 0px solid transparent;
 }
 .panel-profile-img {
   margin-top: -70px;

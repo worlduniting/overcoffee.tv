@@ -1,7 +1,6 @@
 == OverCoffee.TV README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+OverCoffee.TV is a web-series video network. It functions as a front-end for a youtube channel.
 
 Things you may want to cover:
 
@@ -26,6 +25,3 @@ see Gemfile
 URL Conventions:
 
 /show-title/episode-title
-
-Find tech companies and interview them about their faith stories. While waiting for season 6 of Downton Abbey
-

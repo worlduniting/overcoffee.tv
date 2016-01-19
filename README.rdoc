@@ -25,3 +25,13 @@ see Gemfile
 URL Conventions:
 
 /show-title/episode-title
+
+Ideas:
+
+Content submission page. Users can submit a sing an original composition, read a poem, talk about their artwork, read a very short story, or whatever creative thing they want to do. It has to be appropriate for all ages for broadcast, cannot contain explicit language, nudity, etc.
+
+It has to promote empathy
+
+Use ycombinator startup funding application for a proof of concept.
+
+Name, Age, Location, How does this promote empathy

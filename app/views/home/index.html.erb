@@ -50,7 +50,9 @@
             <p>
               
               <strong>Spiritual Tags</strong>
-              <%= link_to button_tag("Agnostic", :type => "button", :class => "btn btn-primary-outline btn-sm"), :controller => "home" %>
+              <%= link_to button_tag("Agnostic", :type => "button", :title => "Agnostic", :class => "btn btn-primary-outline btn-sm"), :controller => "home" %>
+              <%= link_to button_tag("Catholic", :type => "button", :title => "Catholic", :class => "btn btn-primary-outline btn-sm"), :controller => "home" %>
+              <%= link_to button_tag("Christian", :title => "Christian", :type => "button", :class => "btn btn-primary-outline btn-sm"), :controller => "home" %>
             </p>
             <p>
               Robert shares about his upbringing in the Roman Catholic church and his eventual journey out of religion.
@@ -65,8 +67,8 @@
 
 
         <li class="media list-group-item p-a">
-        <%= link_to image_tag("this_sunday.png", 
-                              :alt => "This Sunday 8am",
+        <%= link_to image_tag("last-sunday-magnet.png", 
+                              :alt => "Last Sunday 8am",
                               :class => "panel-profile-img center-block",
                               :style => "-ms-transform: rotate(-17deg); -webkit-transform: rotate(-17deg); transform: rotate(-17deg);"),
             "http://overcoffee.tv" %>
@@ -85,6 +87,7 @@
               
               <strong>Spiritual Tags</strong>
               <%= link_to button_tag("Christian", :type => "button", :class => "btn btn-primary-outline btn-sm"), :controller => "home" %>
+              <%= link_to button_tag("Assemblies of God", :type => "button", :class => "btn btn-primary-outline btn-sm"), :controller => "home" %>
             </p>
             <p>
               Pastor Randy shares about his early spiritual life in a very conservative church and the challenges he faced when coming out as a gay man.

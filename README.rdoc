@@ -35,3 +35,5 @@ It has to promote empathy
 Use ycombinator startup funding application for a proof of concept.
 
 Name, Age, Location, How does this promote empathy
+
+New Pin: "Shows About" using http://codepen.io/ejsado/pen/doyMbW rotation demo...rotate icons with options to watch shows with key words, "Atheist", "Christian", "Buddhist", etc.

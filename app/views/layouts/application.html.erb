@@ -77,9 +77,15 @@
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
   </nav>
-
+  
 	<%= yield %>
 
+  <div
+    class="fb-like pull-right"
+    data-share="true"
+    data-width="450"
+    data-show-faces="true">
+  </div>
   <footer class="footer">
     <div class="container">
       <p class="text-muted text-center">Over Coffee with Rev. Dave Thompson is a program of 
@@ -89,6 +95,24 @@
 
     <script type="text/javascript" async defer
       src="https://apis.google.com/js/platform.js?publisherid=110400614747438521219">
+    </script>
+
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '405884566248725',
+          xfbml      : true,
+          version    : 'v2.5'
+        });
+      };
+
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/en_US/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
     </script>
 
     <script>

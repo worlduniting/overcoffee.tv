@@ -29,8 +29,8 @@ sleep 5
 # Open a Finder browser to the Project root
 open .
 
-# Open Safari browser to localhost on port 3000
-open -a Safari 'http://localhost:3000'
+# Open Google Chrome browser to localhost on port 3000
+open -a 'Google Chrome' 'http://localhost:3000'
 
 # Open Sublime Text to working directory
 subl .

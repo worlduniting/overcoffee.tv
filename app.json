@@ -1,8 +1,0 @@
-{
-  "name": "OverCoffee.TV",
-  "description": "Website for Over Coffee with Rev. Dave Thompson",
-  "image": "heroku/ruby",
-  "addons": [
-    "heroku-postgresql"
-  ]
-}

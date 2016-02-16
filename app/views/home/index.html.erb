@@ -6,7 +6,7 @@
     <div class="col-md-3">
       <div class="panel panel-default panel-profile m-b-md">
         <div class="panel-body text-center">
-          <%= link_to image_tag("oc_logo_200px.png", 
+          <%= link_to image_tag("oc-magnet.png", 
                                 :alt => "Over Coffee with Rev. Dave Thompson",
                                 :class => "panel-profile-img",
                                 :style => "-ms-transform: rotate(7deg); -webkit-transform: rotate(7deg); transform: rotate(7deg);"),
@@ -31,10 +31,45 @@
 
 
         <li class="media list-group-item p-a">
-        <%= link_to image_tag("this_sunday.png", 
+        <%= link_to image_tag("this_sunday-magnet.png", 
                               :alt => "This Sunday 8am",
                               :class => "panel-profile-img center-block",
                               :style => "-ms-transform: rotate(-17deg); -webkit-transform: rotate(-17deg); transform: rotate(-17deg);"),
+            "http://overcoffee.tv" %>
+          <a class="media-left" href="#">
+            <span class="icon icon-youtube"></span>
+          </a>
+          <div class="media-body">
+            <div class="media-heading">
+              <small class="pull-right text-muted">Sunday Feb 14, 2016</small>
+              <h5>Linda Laing's Spiritual Story</h5>
+              <h6>Director of Bereavement for Hospice</h6>
+            </div>
+
+            <p><iframe width="80%" src="https://www.youtube.com/embed/bFlReAvFhGY" frameborder="0" allowfullscreen class="center-block"></iframe></p>
+            <p>
+              
+              <strong>Spiritual Tags</strong>
+              <%= link_to button_tag("Christian", :type => "button", :title => "Christian", :class => "btn btn-primary-outline btn-sm"), :controller => "home" %>
+              <%= link_to button_tag("Spiritual", :type => "button", :title => "Spiritual", :class => "btn btn-primary-outline btn-sm"), :controller => "home" %>
+            </p>
+            <p>
+              Linda Laing, Director of Bereavement for Hospice Services of Lake County, shares about her childhood in Pennsylvania and early church experience. Her story leads us to Lake County, CA.
+            </p>
+
+          </div>
+        </li>
+      </ul>
+
+      
+      <ul class="list-group media-list media-list-stream">
+
+
+        <li class="media list-group-item p-a">
+        <%= link_to image_tag("last-sunday-magnet.png", 
+                              :alt => "Last Sunday 8am",
+                              :class => "panel-profile-img center-block",
+                              :style => "-ms-transform: rotate(17deg); -webkit-transform: rotate(17deg); transform: rotate(17deg);"),
             "http://overcoffee.tv" %>
           <a class="media-left" href="#">
             <span class="icon icon-youtube"></span>
@@ -57,42 +92,6 @@
             <p>
               Richard shares about his early catholic life and his journey through the challenges of life, including the loss of his son.
             </p>
-
-          </div>
-        </li>
-      </ul>
-
-      
-      <ul class="list-group media-list media-list-stream">
-
-
-        <li class="media list-group-item p-a">
-        <%= link_to image_tag("last-sunday-magnet.png", 
-                              :alt => "Last Sunday 8am",
-                              :class => "panel-profile-img center-block",
-                              :style => "-ms-transform: rotate(17deg); -webkit-transform: rotate(17deg); transform: rotate(17deg);"),
-            "http://overcoffee.tv" %>
-          <a class="media-left" href="#">
-            <span class="icon icon-youtube"></span>
-          </a>
-          <div class="media-body">
-            <div class="media-heading">
-               <small class="pull-right text-muted">Sunday Jan 31, 2016</small>
-               <h5>"What Would YOU Say To God?"</h5>
-               <h6>Selections from Over Coffee with Rev. Dave Thompson.</h6>
-             </div>
-
-             <p><iframe width="80%" src="https://www.youtube.com/embed/hQHU6eicD1s" frameborder="0" allowfullscreen class="center-block"></iframe></p>
-             <p>
-               
-               <strong>Spiritual Tags</strong>
-               <%= link_to button_tag("Muslim", :type => "button", :title => "Muslim", :class => "btn btn-primary-outline btn-sm"), :controller => "home" %>
-               <%= link_to button_tag("Methodist", :type => "button", :title => "Methodist", :class => "btn btn-primary-outline btn-sm"), :controller => "home" %>
-               <%= link_to button_tag("Agnostic", :title => "Agnostic", :type => "button", :class => "btn btn-primary-outline btn-sm"), :controller => "home" %>
-             </p>
-             <p>
-               This episode features a selection of clips from previous episodes where Rev. Dave Thompson asks his guests, "What would you ask or say to God if God were sitting with us?".
-             </p>
 
           </div>
         </li>
@@ -124,7 +123,7 @@
 
       <div class="panel panel-default panel-profile m-b-md">
         <div class="panel-body text-center">
-          <%= link_to image_tag("dave_circle_headpic.jpg", 
+          <%= link_to image_tag("dave-magnet.png", 
                                   :alt => "Over Coffee with Rev. Dave Thompson", 
                                   :style => "-ms-transform: rotate(1deg); -webkit-transform: rotate(1deg); transform: rotate(1deg);",
                                   :class => "panel-profile-img center-block"),

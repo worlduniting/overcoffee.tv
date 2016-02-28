@@ -1,14 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- These meta tags come first. -->
+    <!-- These meta tags come first. -->    
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="imagetoolbar" content="no" />
+    <meta http-equiv="content-script-type" content="text/javascript" />
+
+    <!-- Basic Page info -->
+    <title>Over Coffee with Rev. Dave Thompson</title>
+    <meta name="description" content="Over Coffee is a (roughly) 30-minute weekly Sunday morning variety TV show where Rev. Dave Thompson listens to the spiritual stories of everyday people." />
+    <meta keywords="Over Coffee, Rev. Dave Thompson, Coffee, Conversation, Religion, Faith, Interview, Celebrity, Spirituality, TV Series, TV Show, YouTube Channel, Sunday, Sunday Morning, Church" />
+    <meta name="author" content="Rev. Dave Thompson" />
+    <meta name="copyright" content="Copyright (c) 2015-2016 World Uniting, Intl, All rights reserved" />
+    <meta name="company" content="World Uniting, Intl &mdash; Over Coffee TV" />
+    <meta name="revisit-after" content="3 days" />
+
+    <!-- Social Media Tags -->
+    <!-- Schema.org markup for Google+ -->
+    <meta itemprop="name" content="Over Coffee with Rev. Dave Thompson &mdash; What's Your Spiritual Story?">
+    <meta itemprop="description" content="Over Coffee is a (roughly) 30-minute weekly Sunday morning variety TV show where Rev. Dave Thompson listens to the spiritual stories of everyday people.">
+    <meta itemprop="image" content="<%= asset_path('oc-magnet.png') %>">
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@revdavethompson">
+    <meta name="twitter:title" content="Over Coffee with Rev. Dave Thompson">
+    <meta name="twitter:description" content="Over Coffee is a (roughly) 30-minute weekly Sunday morning variety TV show where Rev. Dave Thompson listens to the spiritual stories of everyday people.">
+    <meta name="twitter:creator" content="@revdavethompson">
+    <!-- Twitter summary card with large image must be at least 280x150px -->
+    <meta name="twitter:image:src" content="<%= asset_path('oc-magnet.png') %>">
+
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Over Coffee with Rev. Dave Thompson" />
+    <meta property="og:description" content="Over Coffee is a (roughly) 30-minute weekly Sunday morning variety TV show where Rev. Dave Thompson listens to the spiritual stories of everyday people." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://overcoffee.tv" />
+    <meta property="og:image" content="<%= asset_path('oc-magnet.png') %>" />
+    <meta property="og:site_name" content="Over Coffee TV" />
     <meta property="fb:admins" content="738483572" />
     <meta property="fb:app_id" content="405884566248725" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Over Coffee with Rev. Dave Thompson. A (roughly) thirty minute weekly TV series where Rev. Dave talks with his guests about their spiritual stories.">
-    <title>Over Coffee with Rev. Dave Thompson</title>
+
+    <!-- Facebook Thumbnail Image -->
+    <link rel="image_src" href="<%= asset_path('oc-magnet.png') %>" />
 
     <!-- Include the CSS -->
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
@@ -25,26 +60,13 @@
     <!-- Google mobile recommendations https://support.google.com/business/answer/4569085?p=link_page_to_website&rd=2 -->
     <link href="https://plus.google.com/+OvercoffeeTv" rel="publisher" />
 
-    <!-- Facebook Thumbnail Image -->
-    <link rel="image_src" href="<%= asset_path('oc-magnet.png') %>" />
-
     <!-- Favicons and touch icons -->
-    <!-- For retina-display iPads -->
-    <link href="/img/apple-touch-icon-xlarge.png" rel="apple-touch-icon-precomposed" sizes="144x144" type="image/png"/>
-    <!-- For retina-display iPhones -->
-    <link href="/img/apple-touch-icon-large.png" rel="apple-touch-icon-precomposed" sizes="114x114" type="image/png"/>
-    <!-- For iPad 1 -->
-    <link href="/img/apple-touch-icon-medium.png" rel="apple-touch-icon-precomposed" sizes="72x72" type="image/png"/>
-    <!-- For iPhone 3G, iPod Touch and Android -->
-    <link href="/img/apple-touch-icon-small.png" rel="apple-touch-icon-precomposed" type="image/png"/>
-    <!-- For Nokia -->
-    <link href="/img/apple-touch-icon-small.png" rel="shortcut icon"/>
-    <!-- For everything else -->
-    <link href="/img/favicon.png" rel="shortcut icon" type="image/png"/>
-    <link href="/img/favicon.png" rel="shortcut icon" type="image/x-icon"/>
-    <link rel="icon" href="/img/favicon.png">
+    <link href="<%= asset_path('favicon.png') %>" rel="shortcut icon" type="image/png"/>
+    <link href="<%= asset_path('favicon.png') %>" rel="shortcut icon" type="image/x-icon"/>
+    <link rel="icon" href="<%= asset_path('favicon.png') %>">
 
   </head>
+  
   <body>
   <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
@@ -96,24 +118,6 @@
 
     <script type="text/javascript" async defer
       src="https://apis.google.com/js/platform.js?publisherid=110400614747438521219">
-    </script>
-
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          appId      : '405884566248725',
-          xfbml      : true,
-          version    : 'v2.5'
-        });
-      };
-
-      (function(d, s, id){
-         var js, fjs = d.getElementsByTagName(s)[0];
-         if (d.getElementById(id)) {return;}
-         js = d.createElement(s); js.id = id;
-         js.src = "//connect.facebook.net/en_US/sdk.js";
-         fjs.parentNode.insertBefore(js, fjs);
-       }(document, 'script', 'facebook-jssdk'));
     </script>
 
     <script>

@@ -65,56 +65,55 @@
     <link href="<%= asset_path('favicon.png') %>" rel="shortcut icon" type="image/x-icon"/>
     <link rel="icon" href="<%= asset_path('favicon.png') %>">
 
+    <!-- Facebook Thumbnail Image -->
+    <link rel="image_src" href="<%= asset_path('oc-magnet.png') %>" />
+
   </head>
   
   <body>
-  <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container-fluid">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+          <ul class="nav navbar-nav">
+            <li>
+              <%= link_to("Home", root_path) %>
+            </li>
+            <li>
+              <%= link_to("About the Show", :controller => "about") %>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right m-r-0">
+            <li>
+              <%= link_to("Donate", :controller => "donate") %>
+            </li>
+          </ul>
+
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+  	<%= yield %>
+
+
+    <footer class="footer">
+      <div class="text-muted text-center">
+        <p>Over Coffee with Rev. Dave Thompson is a program of 
+          <a href="http://worlduniting.org" target="_blank">World Uniting, Intl</a>.<br />
+          &copy; World Uniting, Intl. All rights reserved.</p>
       </div>
-
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
-        <ul class="nav navbar-nav">
-          <li>
-            <%= link_to("Home", root_path) %>
-          </li>
-          <li>
-            <%= link_to("About the Show", :controller => "about") %>
-          </li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right m-r-0">
-          <li>
-            <%= link_to("Donate", :controller => "donate") %>
-          </li>
-        </ul>
-
-      </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-  </nav>
-
-	<%= yield %>
-
-  <div
-    class="fb-like pull-right"
-    data-share="true"
-    data-width="450"
-    data-show-faces="true">
-  </div>
-  <footer class="footer">
-    <div class="container">
-      <p class="text-muted text-center">Over Coffee with Rev. Dave Thompson is a program of 
-        <a href="http://worlduniting.org" target="_blank">World Uniting, Intl</a>. &copy; World Uniting, Intl. All rights reserved.</p>
-    </div>
-  </footer>
+    </footer>
 
     <script type="text/javascript" async defer
       src="https://apis.google.com/js/platform.js?publisherid=110400614747438521219">
